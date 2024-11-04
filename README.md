@@ -26,7 +26,7 @@ _Fast forward to some months ago, and it turns out Zakaria couldn’t stop think
     * This trigger checks the access level (also defined in the Product Team Members object) before allowing a user to add, edit, or remove team members.
       
 ## Example
-<img width="787" alt="image" src="https://github.com/user-attachments/assets/53f701d1-993b-4db2-8fd7-e97b958d47cd">
+<img width="787" alt="image" src="https://github.com/user-attachments/assets/ff81f1ab-4c36-41f4-ae0f-ba7f16cff5b7">
 
 _Note: Remember that the Product's OWDs are set to Public R/W, therefore all users will have implicit read access by default._
 
@@ -34,44 +34,44 @@ _Note: Remember that the Product's OWDs are set to Public R/W, therefore all use
 
 #### Adding a product team member
 In this example, we are adding a product team member. We choose the member type as User, search and choose Manal. Then, we select the product team member role, and finally the level of access.
-![adding team member](https://github.com/user-attachments/assets/b764afe2-f50a-4f06-a44e-fe09577d0042)
+![adding team member](https://github.com/user-attachments/assets/3e54aff5-fbdb-4eeb-9a0b-e48a8d0c9ed5)
 
 
 
 #### Attempting to edit a product without the right access (edit or full access)
 Oumaima, who has only read access on this product, is attempting to edit it. When trying to do so, she's getting an access error due to not having either Edit or Full Access.
-![attempt to edit product without edit access](https://github.com/user-attachments/assets/1b39fb7b-a5db-4efa-b29c-b5e16158f944)
+![attempt to edit product without edit access](https://github.com/user-attachments/assets/f2b23982-1a80-499b-948c-28b664b4d59b)
+
 
 
 
 #### Attempting to add a product team member without the full access
 Manal has only Edit access to this product. If she tries adding a new product team member or editing an existing one, she will be prevented from doing so.
-![attempt to add team member without full access](https://github.com/user-attachments/assets/f244626f-6964-4207-a481-fc1e873dd0f6)
-
+![attempt to add team member without full access](https://github.com/user-attachments/assets/6f70ec77-0cb4-49b1-9a41-4a007017ae7d)
 
 
 #### View who has access by users, and with what level
 In this example, the product has multiple members: Role, Permission Set and specific users. In order to get a detailed view on who has access by users, with what level and which reason, we can use the quick action Product Team Member Access.
 
 Also, as you notice, Omar is a direct team member with only Read access. But since he has the role Rabat Marketing Agent assigned (The role itself is a member with full access), Omar will get the most permissive level of access which is Full Access.
-![view access](https://github.com/user-attachments/assets/92823c5c-12e7-41a5-bcec-80ebc155debe)
+![view access](https://github.com/user-attachments/assets/3d93a2b7-ab8d-499b-ad93-1f3543d2573f)
 
 
 ## "How to" guide
-<img width="880" alt="image" src="https://github.com/user-attachments/assets/771670e2-d076-4e2e-9c28-d293760289c1">
+<img width="880" alt="image" src="https://github.com/user-attachments/assets/0498cd15-4563-4375-b5ca-ceb49a29c8dc">
 
 ## Data Model
-<img width="383" alt="image" src="https://github.com/user-attachments/assets/acdc91e4-889e-4a0f-816e-539f464b62e0">
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/a942c7ac-9c81-4bcc-a795-21781fcc7269">
 
 # Process Flows
 ### Updating a Product
-<img width="693" alt="image" src="https://github.com/user-attachments/assets/227bea71-1abd-4969-8558-ee00a3749009">
+<img width="693" alt="image" src="https://github.com/user-attachments/assets/d39d3c94-1106-4a8f-819a-4595edda989d">
 
 ### Creating or Updating a Product Team Member
-<img width="722" alt="image" src="https://github.com/user-attachments/assets/e8df0641-c997-4aec-afb3-216a7dcc934b">
+<img width="722" alt="image" src="https://github.com/user-attachments/assets/3d623464-7aa5-4216-b02b-3a9b12ebce12">
 
 ### Deleting a Product Team Member
-<img width="713" alt="image" src="https://github.com/user-attachments/assets/9d13ba64-eb50-4847-93c6-09d518eed31b">
+<img width="713" alt="image" src="https://github.com/user-attachments/assets/30de0d23-2046-426b-8bf8-1ab42e0254a7">
 
 
 # Limitations
