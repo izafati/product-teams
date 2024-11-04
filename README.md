@@ -1,4 +1,4 @@
-# Background
+![demo3](https://github.com/user-attachments/assets/0e7b8fa3-c7bd-498b-a86b-c963b7e3d98d)# Background
 
 1 year ago, a **[Salesforce experimentation](https://medium.com/@elhassak.m/salesforce-product-sharing-experimentation-48425ff411ae)** was done around Product sharing by **[Mustapha El Hassak](https://www.linkedin.com/in/elhassak/)**, **[Hamza Ait Bensaid](https://www.linkedin.com/in/hamzaaitbensaid/)**, **[Oumaima Arbani](https://www.linkedin.com/in/oarbani/)** and **[Zakaria Semri](https://www.linkedin.com/in/zakariasemri/)**. The conclusion was and is still the following:
 * Products have limited sharing capabilities:
@@ -34,27 +34,27 @@ _Note: Remember that the Product's OWDs are set to Public R/W, therefore all use
 
 #### Adding a product team member
 In this example, we are adding a product team member. We choose the member type as User, search and choose Manal. Then, we select the product team member role, and finally the level of access.
-![adding team member](https://github.com/user-attachments/assets/3e54aff5-fbdb-4eeb-9a0b-e48a8d0c9ed5)
+![adding team member](https://github.com/user-attachments/assets/5a868339-84aa-4523-8f19-d8830fe1ac23)
 
 
 
 #### Attempting to edit a product without the right access (edit or full access)
 Oumaima, who has only read access on this product, is attempting to edit it. When trying to do so, she's getting an access error due to not having either Edit or Full Access.
-![attempt to edit product without edit access](https://github.com/user-attachments/assets/f2b23982-1a80-499b-948c-28b664b4d59b)
-
+![attempt to edit product without edit access](https://github.com/user-attachments/assets/6bb14fd2-0061-49a4-a448-1fa4d77837e0)
 
 
 
 #### Attempting to add a product team member without the full access
 Manal has only Edit access to this product. If she tries adding a new product team member or editing an existing one, she will be prevented from doing so.
-![attempt to add team member without full access](https://github.com/user-attachments/assets/6f70ec77-0cb4-49b1-9a41-4a007017ae7d)
+![attempt to add team member without full access](https://github.com/user-attachments/assets/b3327339-12da-44fc-b12c-8d949f7c46b6)
+
 
 
 #### View who has access by users, and with what level
 In this example, the product has multiple members: Role, Permission Set and specific users. In order to get a detailed view on who has access by users, with what level and which reason, we can use the quick action Product Team Member Access.
 
 Also, as you notice, Omar is a direct team member with only Read access. But since he has the role Rabat Marketing Agent assigned (The role itself is a member with full access), Omar will get the most permissive level of access which is Full Access.
-![view access](https://github.com/user-attachments/assets/3d93a2b7-ab8d-499b-ad93-1f3543d2573f)
+![view access](https://github.com/user-attachments/assets/c8323f3f-e97b-43b4-8dae-d6c8c6e8769f)
 
 
 ## "How to" guide
