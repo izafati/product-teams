@@ -1,4 +1,4 @@
-![demo3](https://github.com/user-attachments/assets/0e7b8fa3-c7bd-498b-a86b-c963b7e3d98d)# Background
+# Background
 
 1 year ago, a **[Salesforce experimentation](https://medium.com/@elhassak.m/salesforce-product-sharing-experimentation-48425ff411ae)** was done around Product sharing by **[Mustapha El Hassak](https://www.linkedin.com/in/elhassak/)**, **[Hamza Ait Bensaid](https://www.linkedin.com/in/hamzaaitbensaid/)**, **[Oumaima Arbani](https://www.linkedin.com/in/oarbani/)** and **[Zakaria Semri](https://www.linkedin.com/in/zakariasemri/)**. The conclusion was and is still the following:
 * Products have limited sharing capabilities:
