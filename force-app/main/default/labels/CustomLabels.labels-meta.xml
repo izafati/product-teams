@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>PTM_Adding_Product_Team_Member_Not_Allowed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adding Product Team Member Not Allowed</shortDescription>
+        <value>You don&apos;t have permission to add/manage team members for this product.</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Check_User_Access_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Check_User_Access_Failed</shortDescription>
+        <value>There was an error checking your permissions to manage product team members. Please reach out to your administrator for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Fetch_Product_Access_Values_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Fetch_Product_Access_Values_Failed</shortDescription>
+        <value>We're having trouble retrieving the product access levels. Please reach out to your administrator for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Fetch_Product_Role_Values_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Fetch_Product_Role_Values_Failed</shortDescription>
+        <value>We're having trouble retrieving the product team member role values. Please reach out to your administrator for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Fetch_Product_Team_Member_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Fetch_Product_Team_Member_Failed</shortDescription>
+        <value>We're having trouble retrieving the product team member types. Please reach out to your administrator for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Fetch_Product_Team_Member_Records_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Fetch_Product_Team_Member_Records_Failed</shortDescription>
+        <value>We're having trouble retrieving the product team members. Please reach out to your administrator for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Product_Sharing_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Product_Sharing_Label</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Product_Team_Access_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Product_Team_Access_Label</shortDescription>
+        <value>Product Team Access</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Product_Team_Member_Access_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Product_Team_Member_Access_Label</shortDescription>
+        <value>Product Team Member Access</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Product_Team_Member_Creation_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Product_Team_Member_Creation_Failed</shortDescription>
+        <value>We're having trouble creating the product team member. Please reach out to your administrator for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Product_Team_Member_Creation_Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Product_Team_Member_Creation_Success</shortDescription>
+        <value>The product team member has been created successfully!</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Product_Team_Member_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Product_Team_Member_Label</shortDescription>
+        <value>Product Team Member</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Product_Team_Role_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Product_Team_Role_Label</shortDescription>
+        <value>Product Team Role</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Search_For_The_Member_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Search_For_The_Member_Label</shortDescription>
+        <value>Enter the name of the member you wish to find</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Search_Product_Team_Member_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Search_Product_Team_Member_Failed</shortDescription>
+        <value>We couldn't find the selected entity. Please try again, and if you need assistance, feel free to reach out to your admin.</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Select_Team_Member_Access_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Select_Team_Member_Access_Message</shortDescription>
+        <value>Choose an access level for the team member</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Select_Team_Member_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Select_Team_Member_Message</shortDescription>
+        <value>Select the type of team member you'd like to add</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Select_Team_Member_Role_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Select_Team_Member_Role_Message</shortDescription>
+        <value>Select the role for the team member</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Share_Product_Btn_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Share_Product_Btn_Label</shortDescription>
+        <value>Share Product</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Team_Member_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Team_Member_Label</shortDescription>
+        <value>Team Member</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Team_Member_Type_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PTM_Team_Member_Type_Label</shortDescription>
+        <value>Team Member Type</value>
+    </labels>
+    <labels>
+        <fullName>PTM_Updating_Product_Not_Allowed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Updating Product Not Allowed</shortDescription>
+        <value>You don&apos;t have permission to edit the product.</value>
+    </labels>
+</CustomLabels>

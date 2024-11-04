@@ -1,0 +1,20 @@
+<template>
+  <div class="app slds-var-p-around_x-large">
+    <div lwc:if={_showSpinner} class="slds-is-relative">
+      <lightning-spinner
+        alternative-text="Loading"
+        size="medium"
+        variant="brand"
+      ></lightning-spinner>
+    </div>
+    <lightning-card lwc:else title={labels.productTeamMemberAccess}>
+      <lightning-datatable
+        key-field="id"
+        data={data}
+        columns={columns}
+        hide-checkbox-column="true"
+      >
+      </lightning-datatable>
+    </lightning-card>
+  </div>
+</template>

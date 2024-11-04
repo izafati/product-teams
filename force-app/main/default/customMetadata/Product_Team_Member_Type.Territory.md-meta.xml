@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Territory</label>
+    <protected>false</protected>
+    <values>
+        <field>IsSOQL__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>MemberTypeLookupField__c</field>
+        <value xsi:type="xsd:string">Territory__c</value>
+    </values>
+    <values>
+        <field>ObjectIcon__c</field>
+        <value xsi:type="xsd:string">standard:service_territory</value>
+    </values>
+    <values>
+        <field>ObjectTypeLabel__c</field>
+        <value xsi:type="xsd:string">Territory</value>
+    </values>
+    <values>
+        <field>ObjectType__c</field>
+        <value xsi:type="xsd:string">Territory2</value>
+    </values>
+    <values>
+        <field>QueryFields__c</field>
+        <value xsi:type="xsd:string">Id, Name</value>
+    </values>
+    <values>
+        <field>SearchCondition__c</field>
+        <value xsi:type="xsd:string">Name LIKE :searchTerm</value>
+    </values>
+</CustomMetadata>

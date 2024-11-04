@@ -1,0 +1,57 @@
+<template>
+  <lightning-card>
+    <div lwc:if={hasAccess} class="slds-var-p-around_medium">
+      <lightning-combobox
+        name="productTeamMember"
+        label={labels.selectTeamMemberMessage}
+        value={selectedTeamMemberTypeValue}
+        options={productTeamMemberTypes}
+        onchange={handleTeamMemberTypeChange}
+        class="slds-var-m-bottom_medium"
+      ></lightning-combobox>
+
+      <template lwc:if={selectedTeamMemberType}>
+        <c-lookup
+          class="slds-var-m-bottom_medium"
+          label={labels.teamMember}
+          onsearch={handleSearch}
+          onselectionchange={handleSelectionChange}
+          selection={selectedMember}
+          placeholder={labels.searchForMember}
+          required
+        >
+        </c-lookup>
+
+        <lightning-combobox
+          class="slds-var-m-bottom_medium"
+          name="teamMemberRole"
+          label={labels.selectTeamMemberRoleMessage}
+          value={selectedTeamMemberRole}
+          options={teamMemberRoleOptions}
+          onchange={handleTeamMemberRoleChange}
+          required
+        >
+        </lightning-combobox>
+
+        <lightning-combobox
+          class="slds-var-m-bottom_medium"
+          name="accessLevel"
+          label={labels.selectTeamMemberAccessMessage}
+          value={selectedAccessLevel}
+          options={accessLevelOptions}
+          onchange={handleAccessLevelChange}
+          required
+        >
+        </lightning-combobox>
+
+        <lightning-button
+          class="slds-var-m-top_medium"
+          variant="brand"
+          label={labels.shareProductBtnLabel}
+          onclick={createProductMember}
+          disabled={isCreationButtonDisabled}
+        ></lightning-button>
+      </template>
+    </div>
+  </lightning-card>
+</template>
